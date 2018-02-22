@@ -18,6 +18,16 @@ namespace TiposVarios {
             Console.WriteLine(c);
             Console.WriteLine(d);
             Console.WriteLine(e);
+
+            int x = 3;
+
+            string f = "edfgfh" + 32;
+            string g = $"x = {x}";
+            string h = $@"O valor de x é {x}";
+
+            Console.WriteLine(f);
+            Console.WriteLine(g);
+            Console.WriteLine(h);
         }
     }
 }
